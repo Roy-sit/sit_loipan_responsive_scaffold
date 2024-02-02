@@ -1,0 +1,201 @@
+/* ---Mini CSS reset--- */
+body, p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* Header Styles Mobile*/
+.box_logo {
+  background-color: rgb(154, 8, 176);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 3;
+}
+
+.box_menu {
+  background-color: rgb(154, 8, 176);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 1;
+}
+
+/* Main Content Styles */
+.box_hero {
+  background-color: rgb(154, 8, 176);
+  color: rgb(255, 255, 255);
+  padding: 100px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 4;
+}
+
+.box_p1,
+.box_p2 {
+  background-color: rgb(154, 8, 176);
+  color: rgb(255, 255, 255);
+  padding: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 4;
+}
+
+.box_s1,
+.box_s2,
+.box_s3,
+.box_s4,
+.box_s5,
+.box_s6 {
+  background-color: rgb(154, 8, 176);
+  color: rgb(255, 255, 255);
+  padding: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 2;
+}
+
+/* Footer Styles */
+.box_footer {
+  background-color: rgb(154, 8, 176);
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-column: span 4;
+}
+
+
+/* Media queries for Tablet */
+@media screen and (min-width: 600px) {
+  .box_logo {
+    padding: 30px;
+    grid-column: span 1;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box_menu {
+    padding: 30px;
+    text-align: right;
+    grid-column: span 5;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box_hero {
+    padding: 120px;
+    grid-column: span 6;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box_p1, .box_p2 {
+    padding: 60px;
+    grid-column: span 3;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box_s1,
+  .box_s2,
+  .box_s3,
+  .box_s4,
+  .box_s5,
+  .box_s6 {
+    padding: 60px;
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .box_footer {
+    padding: 50px;
+    grid-column: span 6;
+  }
+}
+
+
+
+/* Media queries for Desktop */
+@media screen and (min-width: 1024px) {
+  .box_logo {
+    padding: 30px;
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box_menu {
+    padding: 30px;
+    grid-column: span 10;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box_hero {
+    padding: 120px;
+    grid-column: span 12;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box_p1, .box_p2 {
+    padding: 60px;
+    grid-column: span 6;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box_s1,
+  .box_s2,
+  .box_s3,
+  .box_s4,
+  .box_s5,
+  .box_s6 {
+  padding: 60px;
+  grid-column: span 3;
+  }
+
+  .box_image {
+    background-color: rgb(154, 8, 176);
+    color: rgb(255, 255, 255);
+    padding: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-column: span 6;
+  }
+}
+
+  @media screen and (max-width: 1023px) {
+    .box_image {
+      display: none;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+  .box_footer {
+    padding: 50px;
+    grid-column: span 12;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+
+.hidden {
+  display: none;
+}
+
+/* Grid Styles */
+.grid-con {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-column-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Responsive Grid Styles for Tablet */
+@media screen and (min-width: 600px) {
+  .grid-con {
+      grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+
+/* Responsive Grid Styles for Desktop */
+@media screen and (min-width: 1024px) {
+  .grid-con {
+      grid-template-columns: repeat(12, 1fr);
+  }
+}

@@ -129,7 +129,6 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 
-
 /* Media queries for Desktop */
 @media screen and (min-width: 1024px) {
   .box_logo {
